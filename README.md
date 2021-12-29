@@ -82,5 +82,4 @@ export default function SamplePage() {
         dispatch(authenticateUser(data));
     }
 }
-
 ```
