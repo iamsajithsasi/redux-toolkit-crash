@@ -13,7 +13,6 @@ export const store = configureStore({
     authentication: AuthenticationReducer,
   },
 });
-
 ```
 
 ### + authentication.js
@@ -66,7 +65,6 @@ export const authenticationSlice = createSlice({
 export const { updateUser } = authenticationSlice.actions;
 
 export default authenticationSlice.reducer;
-
 ```
 
 ### + somecomponent.js
