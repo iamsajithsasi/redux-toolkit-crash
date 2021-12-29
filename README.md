@@ -69,7 +69,7 @@ export default authenticationSlice.reducer;
 
 ```
 
-- somecomponent.js
+### + somecomponent.js
 
 ```
 import { authenticateUser } from "../library/store/authentication";
